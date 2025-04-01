@@ -1,0 +1,100 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/api/vdcStorageProfile/f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/vnd.vmware.vcloud.vdc+json;version=39.1"
+      },
+      "jsonBody": {
+        "otherAttributes": {},
+        "link": [
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vdc+xml",
+                "name": null,
+                "rel": "up",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vdc+json",
+                "name": null,
+                "rel": "up",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdcStorageProfile/f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd/metadata",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.metadata+xml",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdcStorageProfile/f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd/metadata",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.metadata+json",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/cloudapi/1.0.0/orgVdcStoragePolicies/urn:vcloud:orgvdcstoragepolicy:f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd/supportedEntityTypes",
+                "id": null,
+                "type": "application/json",
+                "name": null,
+                "rel": "down",
+                "model": "StoragePolicySupportedEntityTypes",
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/cloudapi/1.0.0/orgVdcStoragePolicies/urn:vcloud:orgvdcstoragepolicy:f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd/consumers",
+                "id": null,
+                "type": "application/json",
+                "name": null,
+                "rel": "down",
+                "model": "StoragePolicyConsumers",
+                "vCloudExtension": []
+            }
+        ],
+        "href": "https://mock.vcloud.worldstream.com/api/vdcStorageProfile/f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd",
+        "type": "application/vnd.vmware.vcloud.vdcStorageProfile+json",
+        "id": "urn:vcloud:vdcstorageProfile:f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd",
+        "operationKey": null,
+        "description": null,
+        "tasks": null,
+        "name": "IAAS Worldstream vSAN",
+        "enabled": true,
+        "units": "MB",
+        "limit": 1048576,
+        "iopsSettings": {
+            "enabled": false,
+            "diskIopsMax": 0,
+            "diskIopsDefault": 0,
+            "storageProfileIopsLimit": 0,
+            "diskIopsPerGbMax": 0,
+            "ignoreIopsPlacement": false
+        },
+        "inheritPvdcDefaultSettings": true,
+        "storageUsedMB": 0,
+        "iopsAllocated": 0,
+        "default": true,
+        "vCloudExtension": []
+      }
+    }
+  }

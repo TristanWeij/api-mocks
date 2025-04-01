@@ -1,0 +1,798 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/vnd.vmware.vcloud.vdc+json;version=39.1"
+      },
+      "jsonBody": {
+        "otherAttributes": {},
+        "link": [
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/org/9eab3af5-e70a-47d5-9d1d-884ef881e943",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.org+xml",
+                "name": null,
+                "rel": "up",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/org/9eab3af5-e70a-47d5-9d1d-884ef881e943",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.org+json",
+                "name": null,
+                "rel": "up",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/metadata",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.metadata+xml",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/metadata",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.metadata+json",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vdc+xml",
+                "name": null,
+                "rel": "edit",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vdc+json",
+                "name": null,
+                "rel": "edit",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/uploadVAppTemplate",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.uploadVAppTemplateParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/uploadVAppTemplate",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.uploadVAppTemplateParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/instantiateOvf",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.instantiateOvfParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/instantiateOvf",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.instantiateOvfParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/instantiateVAppTemplate",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.instantiateVAppTemplateParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/instantiateVAppTemplate",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.instantiateVAppTemplateParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/composeVApp",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.composeVAppParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/composeVApp",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.composeVAppParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/createVm",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.CreateVmParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/createVm",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.CreateVmParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/disk",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.diskCreateParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/disk",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.diskCreateParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/instantiateVmFromTemplate",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.instantiateVmTemplateParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/instantiateVmFromTemplate",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.instantiateVmTemplateParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/media",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.media+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/media",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.media+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/cloneVApp",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.cloneVAppParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/cloneVApp",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.cloneVAppParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/moveVApp",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.moveVAppParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/moveVApp",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.moveVAppParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/cloneVAppTemplate",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.cloneVAppTemplateParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/cloneVAppTemplate",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.cloneVAppTemplateParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/cloneMedia",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.cloneMediaParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/cloneMedia",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.cloneMediaParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/captureVApp",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.captureVAppParams+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/captureVApp",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.captureVAppParams+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/admin/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/networks",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.orgVdcNetwork+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/admin/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/networks",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.orgVdcNetwork+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/network/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/edges",
+                "id": null,
+                "type": "application/xml",
+                "name": null,
+                "rel": "fullEdgeGateway",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/admin/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/edgeGateways",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.query.records+xml",
+                "name": null,
+                "rel": "edgeGateways",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/admin/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/edgeGateways",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.query.records+json",
+                "name": null,
+                "rel": "edgeGateways",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/admin/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/networks",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.query.records+xml",
+                "name": null,
+                "rel": "orgVdcNetworks",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/admin/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/networks",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.query.records+json",
+                "name": null,
+                "rel": "orgVdcNetworks",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/computePolicies",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vdcComputePolicyReferences+xml",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/computePolicies",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vdcComputePolicyReferences+json",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/controlAccess/",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.controlAccess+xml",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/controlAccess/",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.controlAccess+json",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/controlAccess",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.controlAccess+xml",
+                "name": null,
+                "rel": "controlAccess",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/action/controlAccess",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.controlAccess+json",
+                "name": null,
+                "rel": "controlAccess",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/cloudapi/1.0.0/vdcs/urn:vcloud:vdc:b4d71f02-7f15-4160-b40e-98d043f2afc3/capabilities",
+                "id": null,
+                "type": "application/json",
+                "name": null,
+                "rel": "vdcCapabilities",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/cloudapi/1.0.0/firewallGroups",
+                "id": null,
+                "type": "application/json",
+                "name": null,
+                "rel": "down:firewallGroups",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/cloudapi/1.0.0/applicationPortProfiles",
+                "id": null,
+                "type": "application/json",
+                "name": null,
+                "rel": "down:appPortProfiles",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/cloudapi/2.0.0/vdcs/urn:vcloud:vdc:b4d71f02-7f15-4160-b40e-98d043f2afc3/computePolicies",
+                "id": null,
+                "type": "application/json",
+                "name": null,
+                "rel": "down",
+                "model": "VdcComputePolicies2",
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/admin/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3",
+                "id": null,
+                "type": "application/vnd.vmware.admin.vdc+xml",
+                "name": null,
+                "rel": "alternate",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/admin/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3",
+                "id": null,
+                "type": "application/vnd.vmware.admin.vdc+json",
+                "name": null,
+                "rel": "alternate",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/vmAffinityRules/",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vmaffinityrule+xml",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/vmAffinityRules/",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vmaffinityrule+json",
+                "name": null,
+                "rel": "add",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/vmAffinityRules/",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vmaffinityrules+xml",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/vmAffinityRules/",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vmaffinityrules+json",
+                "name": null,
+                "rel": "down",
+                "model": null,
+                "vCloudExtension": []
+            }
+        ],
+        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3",
+        "type": "application/vnd.vmware.vcloud.vdc+json",
+        "id": "urn:vcloud:vdc:b4d71f02-7f15-4160-b40e-98d043f2afc3",
+        "operationKey": null,
+        "description": null,
+        "tasks": null,
+        "name": "30745_Max-test_VCD",
+        "computeProviderScope": null,
+        "networkProviderScope": null,
+        "allocationModel": "AllocationPool",
+        "computeCapacity": {
+            "otherAttributes": {},
+            "cpu": {
+                "otherAttributes": {},
+                "units": "MHz",
+                "allocated": 5000,
+                "limit": 5000,
+                "reserved": 625,
+                "used": 0,
+                "reservationUsed": 0,
+                "vCloudExtension": []
+            },
+            "memory": {
+                "otherAttributes": {},
+                "units": "MB",
+                "allocated": 10240,
+                "limit": 10240,
+                "reserved": 5120,
+                "used": 0,
+                "reservationUsed": 0,
+                "vCloudExtension": []
+            },
+            "vCloudExtension": []
+        },
+        "resourceEntities": {
+            "otherAttributes": {},
+            "resourceEntity": [],
+            "vCloudExtension": []
+        },
+        "availableNetworks": {
+            "otherAttributes": {},
+            "network": [
+                {
+                    "otherAttributes": {},
+                    "href": "https://mock.vcloud.worldstream.com/api/network/7b83498d-a695-4ccb-bb65-b9205fa6e35f",
+                    "id": "urn:vcloud:network:7b83498d-a695-4ccb-bb65-b9205fa6e35f",
+                    "type": "application/vnd.vmware.vcloud.network+xml",
+                    "name": "192.168.10.1/24",
+                    "vCloudExtension": []
+                },
+                {
+                    "otherAttributes": {},
+                    "href": "https://mock.vcloud.worldstream.com/api/network/a3379f1f-ff84-4a10-a6a9-95ac4e6c6034",
+                    "id": "urn:vcloud:network:a3379f1f-ff84-4a10-a6a9-95ac4e6c6034",
+                    "type": "application/vnd.vmware.vcloud.network+xml",
+                    "name": "testnt",
+                    "vCloudExtension": []
+                }
+            ],
+            "vCloudExtension": []
+        },
+        "capabilities": {
+            "otherAttributes": {},
+            "supportedHardwareVersions": {
+                "otherAttributes": {},
+                "supportedHardwareVersion": [
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-04",
+                        "name": "vmx-04",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-04",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-07",
+                        "name": "vmx-07",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-07",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-08",
+                        "name": "vmx-08",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-08",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-09",
+                        "name": "vmx-09",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-09",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-10",
+                        "name": "vmx-10",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-10",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-11",
+                        "name": "vmx-11",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-11",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-12",
+                        "name": "vmx-12",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-12",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-13",
+                        "name": "vmx-13",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-13",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-14",
+                        "name": "vmx-14",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-14",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-15",
+                        "name": "vmx-15",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-15",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-16",
+                        "name": "vmx-16",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-16",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-17",
+                        "name": "vmx-17",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-17",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-18",
+                        "name": "vmx-18",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-18",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-19",
+                        "name": "vmx-19",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-19",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-20",
+                        "name": "vmx-20",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-20",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": null
+                    },
+                    {
+                        "_type": "SupportedHardwareVersionType",
+                        "content": "vmx-21",
+                        "name": "vmx-21",
+                        "href": "https://mock.vcloud.worldstream.com/api/vdc/b4d71f02-7f15-4160-b40e-98d043f2afc3/hwv/vmx-21",
+                        "type": "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+                        "default": true
+                    }
+                ],
+                "vCloudExtension": []
+            },
+            "vCloudExtension": []
+        },
+        "nicQuota": 0,
+        "networkQuota": 50,
+        "usedNetworkCount": 0,
+        "vmQuota": 0,
+        "isEnabled": true,
+        "vdcStorageProfiles": {
+            "otherAttributes": {},
+            "vdcStorageProfile": [
+                {
+                    "otherAttributes": {},
+                    "href": "https://mock.vcloud.worldstream.com/api/vdcStorageProfile/f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd",
+                    "id": "urn:vcloud:vdcstorageProfile:f8ec0dcd-662e-4f7b-91c1-7f3e6e2676dd",
+                    "type": "application/vnd.vmware.vcloud.vdcStorageProfile+xml",
+                    "name": "IAAS Worldstream vSAN",
+                    "vCloudExtension": []
+                }
+            ],
+            "vCloudExtension": []
+        },
+        "defaultComputePolicy": {
+            "otherAttributes": {},
+            "href": "https://mock.vcloud.worldstream.com/cloudapi/2.0.0/vdcComputePolicies/urn:vcloud:vdcComputePolicy:4a9d9f74-1614-4788-9789-8e6b59d62e81",
+            "id": "urn:vcloud:vdcComputePolicy:4a9d9f74-1614-4788-9789-8e6b59d62e81",
+            "type": "application/json",
+            "name": "System Default",
+            "vCloudExtension": []
+        },
+        "maxComputePolicy": null,
+        "status": 1,
+        "isLegacyType": false,
+        "vCpuInMhz2": 1000,
+        "vCloudExtension": []
+      }
+    }
+}

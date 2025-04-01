@@ -1,0 +1,45 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/v2/internal_api/accounts/12699"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "jsonBody": {
+        "id": 12699,
+        "accesslevel": 1,
+        "companyname": "Worldstream B.V.",
+        "firstname": "John",
+        "lastname": "Doe",
+        "street": "Industriestraat",
+        "housenumber": "24",
+        "postalcode": "2671CT",
+        "city": "Naaldwijk",
+        "telephone": "06-12345678",
+        "gender": "Mr",
+        "email": "john.doe@worldstream.com",
+        "adminEmail": "john.doe@worldstream.com",
+        "abuseEmail": "john.doe@worldstream.com",
+        "active": true,
+        "signupDate": "2016-04-01T09:34:31+02:00",
+        "vatnumber": "",
+        "kvknumber": "",
+        "api": "0",
+        "apiIp": "",
+        "twoFactor": false,
+        "balance": "0.0",
+        "automaticPayments": false,
+        "creditcard": false,
+        "country": {
+          "iso": "NL",
+          "printableName": "Netherlands"
+        },
+        "mayTopUpBalance": false,
+        "remarksFieldOnOrder": true,
+        "mayPayWithBalance": true
+      }
+    }
+}
