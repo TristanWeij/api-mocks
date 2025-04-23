@@ -1,0 +1,92 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/api/vApp/vm-478e4226-e14c-4a2f-a851-8a25c3233a61/metrics/current"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/vnd.vmware.vcloud.vdc+json;version=39.1"
+      },
+      "jsonBody": {
+        "otherAttributes": {},
+        "link": [
+            {
+                "otherAttributes": {},
+                "href": "https://iaas.cloud.worldstream.com/api/vApp/vm-478e4226-e14c-4a2f-a851-8a25c3233a61",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vm+xml",
+                "name": null,
+                "rel": "up",
+                "model": null,
+                "vCloudExtension": []
+            },
+            {
+                "otherAttributes": {},
+                "href": "https://iaas.cloud.worldstream.com/api/vApp/vm-478e4226-e14c-4a2f-a851-8a25c3233a61",
+                "id": null,
+                "type": "application/vnd.vmware.vcloud.vm+json",
+                "name": null,
+                "rel": "up",
+                "model": null,
+                "vCloudExtension": []
+            }
+        ],
+        "href": null,
+        "type": null,
+        "metric": [
+            {
+                "name": "cpu.usage.average",
+                "unit": "PERCENT",
+                "value": 1.37
+            },
+            {
+                "name": "cpu.usage.maximum",
+                "unit": "PERCENT",
+                "value": 1.37
+            },
+            {
+                "name": "cpu.usagemhz.average",
+                "unit": "MEGAHERTZ",
+                "value": 76.0
+            },
+            {
+                "name": "mem.usage.average",
+                "unit": "PERCENT",
+                "value": 2.99
+            },
+            {
+                "name": "disk.used.latest.0",
+                "unit": "KILOBYTE",
+                "value": 5329615.0
+            },
+            {
+                "name": "disk.used.latest.1",
+                "unit": "KILOBYTE",
+                "value": 5332879.0
+            },
+            {
+                "name": "disk.used.latest.2",
+                "unit": "KILOBYTE",
+                "value": 5336241.0
+            },
+            {
+                "name": "disk.provisioned.latest.0",
+                "unit": "KILOBYTE",
+                "value": 41481608
+            },
+            {
+                "name": "disk.provisioned.latest.1",
+                "unit": "KILOBYTE",
+                "value": 41481668
+            },
+            {
+                "name": "disk.provisioned.latest.2",
+                "unit": "KILOBYTE",
+                "value": 4.14817E+7
+            }
+        ],
+        "vCloudExtension": []
+      }
+    }
+}
